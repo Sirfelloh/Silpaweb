@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle } from 'lucide-react';
+import aboutUsImg from '../assets/about_us.jpg';
 import './Home.css';
 
 export function Home() {
@@ -42,7 +43,7 @@ export function Home() {
           </div>
           <div className="intro-image-wrapper">
             <img 
-              src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800" 
+              src={aboutUsImg} 
               alt="Beautiful interior design" 
               className="intro-image"
             />

@@ -1,4 +1,5 @@
 import { FlipCard } from '../components/FlipCard';
+import kilimaniOfficeImg from '../assets/kilimani_office.jpg';
 
 export function Projects() {
   const projects = [
@@ -12,7 +13,7 @@ export function Projects() {
       id: 2,
       title: 'Kilimani Executive Offices',
       description: 'Sound-proof glass partitioning and ergonomic furniture supply for a tech startup in Nairobi.',
-      imageSrc: 'https://images.pexels.com/photos/280453/pexels-photo-280453.jpeg?auto=compress&cs=tinysrgb&w=800'
+      imageSrc: kilimaniOfficeImg
     },
     {
       id: 3,

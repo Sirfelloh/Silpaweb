@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import aboutUsImg from '../assets/about_us.jpg';
 
 export function About() {
   return (
@@ -12,8 +13,8 @@ export function About() {
         <div style={{ display: 'grid', gridTemplateColumns: 'minmax(300px, 1fr) minmax(300px, 1fr)', gap: '4rem', alignItems: 'center' }}>
           <div>
             <img 
-              src="https://images.pexels.com/photos/3183628/pexels-photo-3183628.jpeg?auto=compress&cs=tinysrgb&w=800" 
-              alt="Silpa Team" 
+              src={aboutUsImg} 
+              alt="Beautiful interior design" 
               style={{ borderRadius: '8px', boxShadow: 'var(--shadow-lg)', width: '100%' }}
             />
           </div>
